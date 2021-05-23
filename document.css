@@ -200,23 +200,20 @@ p {
 }
 
 
-footer > p {
-  position: relative;
-  
-  left: -10vw;
-  width: 60%;
+footer {
+  width: 99%;
   font-size: 19px;
   color: white;
   border: none;
   background-color: rgba(0, 0, 0, 0.5);
   padding-bottom: 0vw;
   font-family: 'Poppins', sans-serif;
-}
-footer {
+  position: absolute;
   
-  position: relative;
-  bottom: 0;
-  width: 60%;
+}
+footer > p {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 @media (max-width: 900px) {
   h2 {

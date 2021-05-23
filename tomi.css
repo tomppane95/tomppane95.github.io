@@ -1,24 +1,19 @@
-
-
 .container {
   background-image: url('./pics/valkone.jpg');
   min-height: 400px;
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 2px -2px rgb(0 0 0 / 20%);
-
 }
-h1{
+h1 {
   font-family: 'Permanent Marker', cursive;
 }
-
-
 
 a {
   font-family: 'Poppins', sans-serif;
 }
 
-.nav-list{
+.nav-list {
   background-color: rgb(225 225 225 / 72%);
   box-shadow: 0px 0px 1px;
   margin: 0;
@@ -27,17 +22,13 @@ a {
   justify-content: center;
   align-items: center;
 }
-.nav-item{
+.nav-item {
   list-style: none;
-  
 }
 .nav-item a {
   text-decoration: none;
   color: black;
-
-
 }
-
 
 .kuvat {
   font-size: 20px;
@@ -46,7 +37,6 @@ a {
 #info {
   margin: auto;
   text-align: center;
-  
 }
 
 .pikkuotsikko {
@@ -54,11 +44,9 @@ a {
 }
 
 .paapalikka {
-  
   overflow: hidden;
   width: 100%;
   white-space: nowrap;
-
 }
 .paapalikka > div {
   width: 20vw;
@@ -71,7 +59,7 @@ a {
 .taitopalikat {
   position: relative;
   top: 5rem;
-  
+
   justify-content: space-around;
   display: flex;
   justify-content: center;
@@ -80,23 +68,20 @@ a {
 .taitopalikka {
   width: 200px;
   margin: 50px;
-  box-shadow: 
-  rgba(0, 0, 0, 0.308) 0px 54px 55px, 
-  rgba(0, 0, 0, 0.308) 0px -12px 30px, 
-  rgba(0, 0, 0, 0.226) 0px 4px 6px, 
-  rgba(0, 0, 0, 0.205) 0px 12px 13px, 
-  rgba(0, 0, 0, 0.199) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.308) 0px 54px 55px,
+    rgba(0, 0, 0, 0.308) 0px -12px 30px, rgba(0, 0, 0, 0.226) 0px 4px 6px,
+    rgba(0, 0, 0, 0.205) 0px 12px 13px, rgba(0, 0, 0, 0.199) 0px -3px 5px;
   background-color: rgb(234 234 234);
 }
 .taitopalikka-1 {
- min-height: 19vw;
- min-width: 19vw;
+  min-height: 19vw;
+  min-width: 19vw;
 }
 .taitopalikka-2 {
   min-height: 19vw;
   min-width: 19vw;
 }
-.taitopalikka-3{
+.taitopalikka-3 {
   min-height: 19vw;
   min-width: 19vw;
 }
@@ -143,7 +128,6 @@ a {
   width: 40%;
 }
 
-
 #kuva {
   display: block;
   margin-left: auto;
@@ -164,14 +148,12 @@ a {
   margin-right: auto;
   margin-top: -3.5vw;
   width: 45%;
-  }
+}
 
 #moromoro {
   background-color: rgb(165 165 165 / 33%);
   position: relative;
- 
 }
-
 
 #Alkuotsikko {
   position: relative;
@@ -181,10 +163,9 @@ a {
   color: rgb(0, 0, 0);
   max-width: 100%;
   width: 100%;
- 
+
   text-align: center;
 }
-
 
 .nav-item a:link,
 .nav-item a:visited {
@@ -263,23 +244,21 @@ p {
   top: 2vw;
   font-family: 'Poppins', sans-serif;
 }
-footer > p {
-  position: relative;
-  
-  left: -10vw;
-  width: 60%;
+
+footer {
+  width: 99%;
   font-size: 19px;
   color: white;
   border: none;
   background-color: rgba(0, 0, 0, 0.5);
   padding-bottom: 0vw;
   font-family: 'Poppins', sans-serif;
-}
-footer {
+  position: absolute;
   
-  position: relative;
-  bottom: 0;
-  width: 60%;
+}
+footer > p {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 @media (max-width: 900px) {
   h2 {
@@ -304,7 +283,5 @@ footer {
   .nav-item a:link,
   .nav-item a:visited {
     padding: 1vw 6.9vw;
-
   }
 }
-
