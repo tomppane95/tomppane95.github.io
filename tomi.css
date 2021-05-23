@@ -71,7 +71,7 @@ a {
 
 .taitopalikka {
   width: 200px;
-  margin: 50px;
+  margin: 25px;
   box-shadow: rgba(0, 0, 0, 0.308) 0px 54px 55px,
     rgba(0, 0, 0, 0.308) 0px -12px 30px, rgba(0, 0, 0, 0.226) 0px 4px 6px,
     rgba(0, 0, 0, 0.205) 0px 12px 13px, rgba(0, 0, 0, 0.199) 0px -3px 5px;
@@ -80,15 +80,15 @@ a {
 }
 .taitopalikka-1 {
   min-height: 19vw;
-  min-width: 19vw;
+  min-width: 23vw;
 }
 .taitopalikka-2 {
   min-height: 19vw;
-  min-width: 19vw;
+  min-width: 23vw;
 }
 .taitopalikka-3 {
   min-height: 19vw;
-  min-width: 19vw;
+  min-width: 23vw;
 }
 
 /*
