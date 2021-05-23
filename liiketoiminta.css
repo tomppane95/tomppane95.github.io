@@ -1,5 +1,5 @@
 .container {
-  background-image: url('../tomppane95.github.io/pics/valkone.jpg');
+  background-image: url('./pics/valkone.jpg');
   min-height: 400px;
   background-size: cover;
   background-position: center;
