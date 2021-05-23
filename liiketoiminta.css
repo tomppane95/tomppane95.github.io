@@ -156,21 +156,8 @@ a {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .nav-item.responsive {
-    position: relative;
-  }
-  .nav-item.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav-item.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
+
+
 h2 {
   font-family: 'Poppins', sans-serif;
   width: 50%;
@@ -239,6 +226,14 @@ footer > p {
 @media (max-width: 680px) {
   h2 {
     font-size: 17px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@media (max-height: 680px) {
+  h2 {
+    font-size: 200px;
   }
   p {
     font-size: 14px;
