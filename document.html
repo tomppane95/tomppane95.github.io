@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Portfolio - Tomi Naukkarinen</title>
+
+    <meta charset="utf-8" />
+    <meta name="author" content="Tomi" />
+    <meta name="Description" content="Tomin kotisivut" />
+    <link
+      rel="stylesheet"
+      href="../tomppane95.github.io/lightbox2-2.11.1/lightbox2-2.11.1/dist/css/lightbox.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="document.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&amp;display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <navbar>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="./index.html">Osaaminen</a>
+        </li>
+        <li class="nav-item">
+          <a href="./liiketoiminta.html">Liiketoiminta</a>
+        </li>
+        <li class="nav-item">
+          <a href="./document.html">Tekniikka sivutyö</a>
+        </li>
+      </ul>
+    </navbar>
+
+    <div class="container">
+      <h1 id="Alkuotsikko">Portfolio - Tomi Naukkarinen</h1>
+    </div>
+
+    <div id="moromoro">
+      <br>
+      <h2 id="pikkuotsikko">Tekniikka</h2>
+      <br>
+      <p>
+        Tekniikkaa tein sivutyönä tässä Allergiaskanneri -projektissa. Kun
+        projekti käynnistyi, olo oli aika epäluuloinen. Tulisiko tästä muka
+        oikeasti joku toimiva sovellus? Tietämystä löytyi jonkin verran,
+        koulussa oli käyty muutamia valmistavia kursseja, joista ehkä
+        tärkeinpänä juuri suoritettu Web-sovelluskehityskurssi. Tästä kurssista
+        itselle oli oikeastaan jäännyt enemmän teoriaa mieleen, kuin itse koodin
+        kirjoittamista. Melko tyhjältä pöydältä sitä tuli osallistuttua
+        tekniikkaan, tai siltä se vähintäänkin tuntui.
+      </p>
+      <p>Tekniikka oli osa-alue, josta oisin halunnut oppia paljon enemmän. Opin kuitenkin opintojakson aikana paljon, ymmärrän nyt paremmin
+        angularin perus rakenteen ja miten sillä oikeasti voi luoda sovelluksen. Sovelluksessa on paljon asioita, mitä en itse osaisi koodata. Mutta ymmärrän silti aika hyvin, mitä
+        missäkin tapahtuu.
+      </p>
+      <p>
+        Projektissa oli 3 päätoimista koodaria ja minun osuuteni oli oikeastaan
+        olla apuna etsimässä tietoa ja yrittämässä selvittää heidän kanssaan
+        pulmatilanteita. Kokosin portfoliooni kuitenkin pari asiaa, joiden
+        kehityksessä olin enemmän mukana.
+      </p>
+
+      <h2 class="pikkuotsikko">Hakupalkki ja sen toiminallisuus</h2>
+      <br />
+      <p>
+        Hakupalkin tekeminen oli oikeastaan ainoa, täysin minun tekemäni osa
+        projektissa. Hakupalkin ideana on, että siitä pystyy manuaalisesti
+        syöttämään EAN-koodin numerot hakukenttään, joka sitten etsii kyseisen
+        tuotteen S-Ryhmän Foodie-sovelluksen tietokannasta. Ensimmäisessä
+        kuvassa näkyy miltä hakupalkki näyttää itse sovelluksessa, joka on
+        yhdistettynä skanneri-näkymään. Toisessa kuvassa näkyy hakupalkin
+        Html-tiedostossa oleva koodi. Siinä oleva (keyup.enter) määrittää sen,
+        että kun käyttäjä painaa Enteriä, se käynnistää Update-funktion ja
+        asettaa sen parametrikseen hakukenttään syötetyn numerosarjan.
+      </p>
+      <section>
+        <div class="kuvasarja2">
+          <a
+            class="kuvia2"
+            href="../tomppane95.github.io/pics/screenshot.jpg"
+            data-lightbox="example-set"
+            data-title="hakupalkki"
+            ><img
+              class="example-image"
+              src="../tomppane95.github.io/pics/screenshot.jpg"
+              alt="hakupalkki"
+              width="200vw"
+          /></a>
+
+          <a
+            class="kuvia2"
+            href="../tomppane95.github.io/pics/htmlhaku.png"
+            data-lightbox="example-set"
+            data-title="Html-koodi"
+            ><img
+              class="example-image"
+              src="../tomppane95.github.io/pics/htmlhaku.png"
+              alt="hakupalkki"
+              width="500vw"
+          /></a>
+        </div>
+      </section>
+      <p>
+        Kolmas kuva on otettu TS-tiedostosta, jossa näkyy Update-funktio. Siinä
+        välitetään BarcodeServicen setBarcode()-metodille käyttäjän syöttämä
+        numerosarja hakukentästä. Neljännessä kuvassa oleva BarcodeService ei
+        ole oma luomani, mutta siinä näkyy kuinka getData() -metodi hakee
+        tuotetiedot tietokannasta käyttäen apuna getBarcode() -metodia, jossa
+        siis tässä tapauksessa olisi käyttäjän syöttämä viivakoodi hakukentästä.
+      </p>
+      <section>
+        <div class="kuvasarja2">
+          <a
+            class="kuvia2"
+            href="../tomppane95.github.io/pics/tshaku.png"
+            data-lightbox="example-set"
+            data-title="Toiminallisuus"
+            ><img
+              class="example-image"
+              src="../tomppane95.github.io/pics/tshaku.png"
+              alt="hakupalkki"
+              width="400vw"
+          /></a>
+
+          <a
+            class="kuvia2"
+            href="../tomppane95.github.io/pics/service.png"
+            data-lightbox="example-set"
+            data-title="Service"
+            ><img
+              class="example-image"
+              src="../tomppane95.github.io/pics/service.png"
+              alt="hakupalkki"
+              width="500vw"
+          /></a>
+        </div>
+      </section>
+
+      <h2 class="pikkuotsikko">
+        QuaggaJS -kirjaston asentamista ja Proxy-serverin tekemistä
+      </h2>
+      <br />
+      <p>
+        Projektin ihan alussa otin työkseni testata QuaggaJS-kirjastoa, miten se
+        toimii ja onko siitä mihinkään. QuaggaJs-kirjasto on siis kirjasto, joka
+        mahdollistaa viivakoodin lukemisen puhelimen kameralla. Siihen löytyi
+        netistä hyviä tutoriaaleja ja sain kun sainkin siitä jonkinlaisen
+        version tehtyä, joka luki siis kovakoodattuja viivakoodeja. Pienen testisovelluksen luominen 
+        tuotti siis tulosta ja tämä kirjasto päätyi lopulliseen sovellukseen.
+      </p>
+      <p>
+        Testi-versio on itseasiassa laitettu Firebaseen. Puhelimella sitä voi
+        kokeilla osoitteesta
+        <a href="https://skanneri.web.app/">skanneri.web.app.</a>
+      </p>
+      <section>
+        <div class="kuvasarja">
+          <a
+            class="kuvia1"
+            href="../tomppane95.github.io/pics/quagga.png"
+            data-lightbox="example-set"
+            data-title="Viivakoodeja"
+            ><img
+              class="example-image"
+              src="../tomppane95.github.io/pics/quagga.png"
+              alt="quagga"
+              width="300vw"
+          /></a>
+        </div>
+      </section>
+      <p>Ylläolevia kovakoodattuja viivakoodeja voi kokeilla testisovelluksella.</p>
+      <h2 class="pikkuotsikko">GitHub -versionhallinta</h2>
+
+      <script src="../tomppane95.github.io/lightbox2-2.11.1/lightbox2-2.11.1/dist/js/lightbox-plus-jquery.min.js"></script>
+    </div>
+    <footer><p>Tomi Naukkarinen, N4298, HTK19S1</p></footer>
+  </body>
+</html>

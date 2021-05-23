@@ -1,0 +1,310 @@
+
+
+.container {
+  background-image: url('./pics/valkone.jpg');
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 2px -2px rgb(0 0 0 / 20%);
+
+}
+h1{
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-list{
+  background-color: rgb(225 225 225 / 72%);
+  box-shadow: 0px 0px 1px;
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item{
+  list-style: none;
+  
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+
+.kuvat {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+#info {
+  margin: auto;
+  text-align: center;
+  
+}
+
+.pikkuotsikko {
+  margin: auto;
+}
+
+.paapalikka {
+  
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+
+}
+.paapalikka > div {
+  width: 20vw;
+  height: 30rem;
+  float: left;
+  margin: 5vw -5vw 0vw 16vw;
+  background-color: #404040;
+}
+
+.taitopalikat {
+  position: relative;
+  top: 5rem;
+  
+  justify-content: space-around;
+  display: flex;
+  justify-content: center;
+}
+
+.taitopalikka {
+  width: 200px;
+  margin: 50px;
+  box-shadow: 
+  rgba(0, 0, 0, 0.308) 0px 54px 55px, 
+  rgba(0, 0, 0, 0.308) 0px -12px 30px, 
+  rgba(0, 0, 0, 0.226) 0px 4px 6px, 
+  rgba(0, 0, 0, 0.205) 0px 12px 13px, 
+  rgba(0, 0, 0, 0.199) 0px -3px 5px;
+  background-color: rgb(234 234 234);
+}
+.taitopalikka-1 {
+ min-height: 19vw;
+ min-width: 19vw;
+}
+.taitopalikka-2 {
+  min-height: 19vw;
+  min-width: 19vw;
+}
+.taitopalikka-3{
+  min-height: 19vw;
+  min-width: 19vw;
+}
+
+/*
+#palikka1 {
+  
+  display:inline;
+  width:18rem;
+  height:25rem;
+  background-color:white;
+  border:solid black;
+}
+#palikka2 {
+  display:inline;
+  width:18rem;
+  height:25rem;
+  background-color:white; 
+  border:solid black;
+
+}
+#palikka3 {
+  display:inline;
+  width:18rem;
+  height:25rem;
+  background-color:white;
+  border:solid black;
+  
+}
+
+*/
+#wordpress {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3vw;
+  width: 40%;
+}
+#ohjelmistot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3vw;
+  width: 40%;
+}
+
+
+#kuva {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#allergiaskanneri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#angular {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3.5vw;
+  width: 45%;
+  }
+
+#moromoro {
+  background-color: rgb(165 165 165 / 33%);
+  position: relative;
+ 
+}
+
+
+#Alkuotsikko {
+  position: relative;
+  top: 18rem;
+  margin: auto;
+  font-size: 39px;
+  color: rgb(0, 0, 0);
+  max-width: 100%;
+  width: 100%;
+ 
+  text-align: center;
+}
+
+
+.nav-item a:link,
+.nav-item a:visited {
+  color: rgb(63, 63, 63);
+
+  margin: auto;
+  width: 19%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(85, 85, 85, 0.308);
+}
+
+.nav-item a.active {
+  background-color: #4caf50;
+  color: rgb(49, 49, 49);
+}
+
+.nav-item .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-item a:not(:first-child) {
+    display: none;
+  }
+  .nav-item a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-item.responsive {
+    position: relative;
+  }
+  .nav-item.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-item.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+h2 {
+  width: 50%;
+  color: black;
+  font-size: 29px;
+  position: relative;
+  text-align: center;
+  top: 3vw;
+  left: 0vw;
+  font-family: 'Poppins', sans-serif;
+}
+#ekakuva {
+  float: left;
+  left: 15vw;
+  margin-right: 3vw;
+  border: 1px solid;
+}
+p {
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+  text-align: center;
+  left: 0vw;
+  top: 2vw;
+  font-family: 'Poppins', sans-serif;
+}
+footer > p {
+  position: relative;
+  
+  left: -10vw;
+  width: 60%;
+  font-size: 19px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 0vw;
+  font-family: 'Poppins', sans-serif;
+}
+footer {
+  
+  position: relative;
+  bottom: 0;
+  width: 60%;
+}
+@media (max-width: 900px) {
+  h2 {
+    font-size: 23px;
+  }
+  p {
+    font-size: 17px;
+  }
+  p > #ekakuva {
+    width: 50%;
+  }
+}
+@media (max-width: 680px) {
+  h2 {
+    font-size: 17px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .nav-item a:link,
+  .nav-item a:visited {
+    padding: 1vw 6.9vw;
+
+  }
+}
+
