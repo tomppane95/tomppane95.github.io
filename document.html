@@ -149,6 +149,7 @@
         QuaggaJS -kirjaston asentamista ja Proxy-serverin tekemistä
       </h2>
       <br />
+      <p><b><u>QuaggaJS</u></b></p>
       <p>
         Projektin ihan alussa otin työkseni testata QuaggaJS-kirjastoa, miten se
         toimii ja onko siitä mihinkään. QuaggaJs-kirjasto on siis kirjasto, joka
@@ -162,15 +163,6 @@
         kokeilla osoitteesta
         <a href="https://skanneri.web.app/">skanneri.web.app.</a>
       </p>
-
-      <p><b><u>Proxy-serverin tekoa</u></b></p>
-      <p>Olin myös mukana tekemässä Allergiaskanneri -sovellukselle omaa proxy-serveriä. Proxylle tuli tarve siinä vaiheessa, kun aloimme käyttämään S-ryhmän
-         Foodie-sovelluksen tietokantoja saadaksemme tuotetiedot S-ryhmän kaupoissa myytävistä tuotteista. Suoran pyynnön lähettäminen Foodien-palvelimelle ei onnistunut ja
-         saimme CORS-erroria. CORS on tietoturva mekanismi, joka on rakennettu kaikkiin moderneihin selaimiin. Se estää kaikki HTTP -pyynnöt meidän front endistä mille tahansa
-         API:lle, mikä ei ole samassa lähteessä.
-      </p>
-      <p>Jotta saimme pyynnön lähetettyä Foodien -palvelimelle, meidän täytyi rakentaa oma proxy-serveri. Tämä siis käytännössä on välityspalvelin, jota kautta pyyntömme menee 
-        Foodien -palvelimelle. Kun saimme proxyn tehtyä, laitoimme sen Herokuun. </p>
       <section>
         <div class="kuvasarja">
           <a
@@ -186,6 +178,15 @@
           /></a>
         </div>
       </section>
+      <p><b><u>Proxy-serverin tekoa</u></b></p>
+      <p>Olin myös mukana tekemässä Allergiaskanneri -sovellukselle omaa proxy-serveriä. Proxylle tuli tarve siinä vaiheessa, kun aloimme käyttämään S-ryhmän
+         Foodie-sovelluksen tietokantoja saadaksemme tuotetiedot S-ryhmän kaupoissa myytävistä tuotteista. Suoran pyynnön lähettäminen Foodien-palvelimelle ei onnistunut ja
+         saimme CORS-erroria. CORS on tietoturva mekanismi, joka on rakennettu kaikkiin moderneihin selaimiin. Se estää kaikki HTTP -pyynnöt meidän front endistä mille tahansa
+         API:lle, mikä ei ole samassa lähteessä.
+      </p>
+      <p>Jotta saimme pyynnön lähetettyä Foodien -palvelimelle, meidän täytyi rakentaa oma proxy-serveri. Tämä siis käytännössä on välityspalvelin, jota kautta pyyntömme menee 
+        Foodien -palvelimelle. Kun saimme proxyn tehtyä, laitoimme sen Herokuun. </p>
+
       <p>Ylläolevia kovakoodattuja viivakoodeja voi kokeilla testisovelluksella.</p>
       <h2 class="pikkuotsikko">Git -versionhallinta</h2>
       <br>
