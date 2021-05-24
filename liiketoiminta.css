@@ -95,6 +95,8 @@ a {
   max-height: 54vw;
   min-width: 40vw;
   min-height: 34vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px;
 }
 
 #yoast {
