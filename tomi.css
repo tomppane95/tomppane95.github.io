@@ -358,21 +358,10 @@ footer > p {
     padding: 1vw 6.9vw;
   }
 }
-@media (max-width: 680px) {
+
+@media (max-width: 600px) {
   #moromoro {
-    background-image: url(./pics/minä.jpg);
-    max-width: 30%;
-  }
-  h2 {
-    font-size: 17px;
-  }
-  p {
-    font-size: 10px;
-  }
-}
-@media (max-width: 391px) {
-  #moromoro {
-    padding-top: 500px;
+    padding-top: 750px;
     max-width: 100%;
     background-size: 100%;
   }
@@ -408,32 +397,148 @@ footer > p {
 }
 .taitopalikka {
   position: relative;
-  left: 15vw;
+  left: 25vw;
   width: 200px;
-  margin-top: 25px;
+  margin-top: 40px;
   padding-bottom: 10px;
   box-shadow: rgb(0 0 0 / 31%) 0px 54px 55px, rgb(0 0 0 / 31%) 0px -12px 30px, rgb(0 0 0 / 23%) 0px 4px 6px, rgb(0 0 0 / 21%) 0px 12px 13px, rgb(0 0 0 / 20%) 0px -3px 5px;
   background-color: rgb(248, 248, 248);
   border-radius: 10px;
 }
 footer {
-  
-  width: auto;
+  position: relative;
+  width: 100;
   font-size: 19px;
   color: white;
   border: none;
   background-color: rgba(0, 0, 0, 0.5);
-  padding-bottom: 0vw;
+  padding: 1px;
   font-family: 'Poppins', sans-serif;
   
 }
-
 }
+
 @media (max-width: 500px) {
   #moromoro {
-    padding-top: 500px;
+    padding-top: 600px;
     max-width: 100%;
     background-size: 100%;
+  }
+  #alkudiv {
+    width: 100%;
+    margin-left: 0vw;
+  }
+  .nav-list {
+    width: 100%;
+    position: relative;
+  }
+  .nav-item a:link, .nav-item a:visited {
+    padding: 1vw 2vw;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #socialmedia {
+    display: inline;
+    width: 10vw;
+    margin-left: 3vw;
+}
+.taitopalikat {
+  position: absolute;
+  top: 0rem;
+  justify-content: space-around;
+  display: contents;
+  justify-content: center;
+  
+}
+.taitopalikka {
+  position: relative;
+  left: 15vw;
+  width: 200px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+  box-shadow: rgb(0 0 0 / 31%) 0px 54px 55px, rgb(0 0 0 / 31%) 0px -12px 30px, rgb(0 0 0 / 23%) 0px 4px 6px, rgb(0 0 0 / 21%) 0px 12px 13px, rgb(0 0 0 / 20%) 0px -3px 5px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px;
+}
+footer {
+  position: relative;
+  width: 100;
+  font-size: 19px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+}
+@media (max-width: 450px) {
+  #moromoro {
+    padding-top: 550px;
+    max-width: 100%;
+    background-size: 100%;
+  }
+  #alkudiv {
+    width: 100%;
+    margin-left: 0vw;
+  }
+  .nav-list {
+    width: 100%;
+    position: relative;
+  }
+  .nav-item a:link, .nav-item a:visited {
+    padding: 1vw 2vw;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #socialmedia {
+    display: inline;
+    width: 10vw;
+    margin-left: 3vw;
+}
+.taitopalikat {
+  position: absolute;
+  top: 0rem;
+  justify-content: space-around;
+  display: contents;
+  justify-content: center;
+  
+}
+.taitopalikka {
+  position: relative;
+  left: 15vw;
+  width: 200px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+  box-shadow: rgb(0 0 0 / 31%) 0px 54px 55px, rgb(0 0 0 / 31%) 0px -12px 30px, rgb(0 0 0 / 23%) 0px 4px 6px, rgb(0 0 0 / 21%) 0px 12px 13px, rgb(0 0 0 / 20%) 0px -3px 5px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 10px;
+}
+footer {
+  position: relative;
+  width: 100;
+  font-size: 19px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+}
+@media (max-width: 390px) {
+  #moromoro {
+    padding-top: 450px;
+    max-width: 100%;
+    background-size: 100;
   }
   #alkudiv {
     width: 100%;
@@ -488,3 +593,4 @@ footer {
 }
 
 }
+
