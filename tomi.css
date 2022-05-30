@@ -4,10 +4,12 @@
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 2px -2px rgb(0 0 0 / 20%);
+ 
 }
 h1 {
   font-family: 'Permanent Marker', cursive;
 }
+
 .wrapper {
   height: 1vh;
   /*This part is important for centering*/
@@ -53,16 +55,16 @@ a {
 }
 .nav-list{
   position: absolute;
-  top: 0.2vw;
-  width: 99%;
-  background-color: white;
+ 
+  width: 99.2%;
+  background-color: rgba(212, 212, 212, 0.445);
   box-shadow: 0px 0px 3px;
   margin: 0;
   padding: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+
   margin-bottom: 0.5rem;
 }
 .nav-item {
@@ -76,6 +78,7 @@ a {
 .kuvat {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 #info {
   margin: auto;
@@ -83,7 +86,8 @@ a {
 }
 
 .pikkuotsikko {
-  margin: auto;
+  
+  margin-left: 4vw;
 }
 
 .paapalikka {
@@ -114,7 +118,7 @@ a {
   box-shadow: rgba(0, 0, 0, 0.308) 0px 54px 55px,
     rgba(0, 0, 0, 0.308) 0px -12px 30px, rgba(0, 0, 0, 0.226) 0px 4px 6px,
     rgba(0, 0, 0, 0.205) 0px 12px 13px, rgba(0, 0, 0, 0.199) 0px -3px 5px;
-  background-color: rgb(234 234 234);
+  background-color: rgb(248, 248, 248);
   border-radius: 10px;
 }
 .taitopalikka-1 {
@@ -195,8 +199,24 @@ a {
 }
 
 #moromoro {
-  background-color: rgb(165 165 165 / 33%);
-  position: relative;
+  background-image: linear-gradient(to left, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 60%,rgba(255, 255, 255, 1) 100%), url(../tomppane95.github.io/pics/minä.jpg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  background-position: right top;
+  
+}
+
+#alkudiv {
+  
+  width: 50%;
+  text-align: left;
+  margin-left: 4vw;
+}
+#socialmedia {
+  display: inline;
+  width: 3vw;
+  margin-left: 0.5vw;
 }
 /*
 #Alkuotsikko {
@@ -214,7 +234,7 @@ a {
 
 .nav-item a:link,
 .nav-item a:visited {
-  color: rgb(63, 63, 63);
+  color: rgb(0, 0, 0);
 
   margin: auto;
   width: 19%;
@@ -224,7 +244,7 @@ a {
 
 .nav-item a:hover {
   color: rgb(0, 0, 0);
-  background-color: rgba(85, 85, 85, 0.308);
+  background-color: rgba(0, 0, 0, 0.308);
   border-radius: 10px;
 }
 
@@ -263,11 +283,11 @@ a {
   }
 }
 h2 {
-  width: 50%;
+  
   color: black;
   font-size: 29px;
   position: relative;
-  text-align: center;
+  text-align: left;
   top: 3vw;
   left: 0vw;
   font-family: 'Poppins', sans-serif;
@@ -281,7 +301,19 @@ h2 {
 p {
   font-size: 19px;
   color: rgb(0, 0, 0);
-  width: 80%;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+  text-align: left;
+  left: 0vw;
+  top: 2vw;
+  font-family: 'Poppins', sans-serif;
+}
+#luettelo {
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+  width: 100%;
   margin: auto;
   margin-bottom: 3vw;
   margin-top: 3vw;
@@ -292,7 +324,7 @@ p {
 }
 
 footer {
-  width: 99%;
+  width: 100%;
   font-size: 19px;
   color: white;
   border: none;
@@ -305,6 +337,8 @@ footer {
 footer > p {
   margin-top: 2vw;
   margin-bottom: 2vw;
+ 
+  text-align: center;
 }
 @media (max-width: 900px) {
   h2 {
