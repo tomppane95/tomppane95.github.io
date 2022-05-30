@@ -199,7 +199,7 @@ a {
 }
 
 #moromoro {
-  background-image: linear-gradient(to left, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 60%,rgba(255, 255, 255, 1) 100%), url(../tomppane95.github.io/pics/minä.jpg);
+  background-image: linear-gradient(to left, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 60%,rgba(255, 255, 255, 1) 100%), url(./pics/minä.jpg);
   background-size: 60%;
   background-repeat: no-repeat;
   background-color: rgb(255, 255, 255);
