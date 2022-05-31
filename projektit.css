@@ -22,41 +22,40 @@ a {
 
 .nav-list{
   position: absolute;
-  top: 0.2vw;
-  width: 99%;
-  background-color: white;
+ 
+  width: 99.2%;
+  background-color: rgba(212, 212, 212, 0.445);
   box-shadow: 0px 0px 3px;
   margin: 0;
   padding: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+
   margin-bottom: 0.5rem;
 }
-.nav-item{
+.nav-item {
   list-style: none;
-  
 }
 .nav-item a {
   text-decoration: none;
   color: black;
-
-
 }
-.nav-item a:link,
-.nav-item a:visited {
-  color: rgb(63, 63, 63);
-
-  margin: auto;
-  width: 19%;
+.nav-item a:link, .nav-item a:visited {
+  padding: 0.9vw 10vw;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0);
   text-align: center;
   text-decoration: none;
-}
 
+}
+.nav-item:before, .nav-item:last-child:after{
+  content: " | ";
+ 
+}
 .nav-item a:hover {
   color: rgb(0, 0, 0);
-  background-color: rgba(85, 85, 85, 0.308);
+  background-color: rgba(0, 0, 0, 0.575);
   border-radius: 10px;
 }
 
@@ -71,70 +70,26 @@ a {
 
 
 .pikkuotsikko {
-  margin: auto;
-}
-
-.kuvasarja{
   position: relative;
-  margin-left: 26vw;
-}
-.kuvia1{
-  padding: 0 2rem 0 2rem;
-  
-}
-.kuvia2{
-  padding: 0 2rem 0 2rem;
-  
-}
-.kuvasarja2{
-  margin-left: 26vw;
-  position: relative;
-}
-.power{
-  max-width: 60vw;
-  max-height: 54vw;
-  min-width: 40vw;
-  min-height: 34vw;
-  border-radius: 20px;
-  box-shadow: 0px 0px 5px 0px;
-}
-
-#yoast {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 5%;
-  min-width: 5%;
-}
-.kuvakkeet{
-  display:flex;
-  justify-content: center;
   margin: auto;
   
 }
-
-#kuvakkeet{
-  position: relative;
+#kuva {
   display: block;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  max-width: 5%;
-  min-width: 5%;
-}
-
-#ostopolkujapersoona{
-  width:80%;
-  display: block;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
+  width: 10%;
+  font-size: 50px;
+  text-align: top;
+  
 }
-
 
 
 #moromoro {
-  background-color: rgb(165 165 165 / 33%);
-  position: relative;
- 
+
+  background-color: rgb(255, 255, 255);
+
+  
 }
 
 #Alkuotsikko {
@@ -147,17 +102,55 @@ a {
   width: 100%;
   text-align: center;
 }
-
-@media screen and (max-width: 600px) {
-  .nav-item a:not(:first-child) {
-    display: none;
-  }
-  .nav-item a.icon {
-    float: right;
-    display: block;
-  }
+#allergiaskanneri{
+  width: 50%;
+  position: relative;
+  left: 15vw;
 }
 
+#box1, #box2{
+  display:inline;
+  
+}
+/**/
+#box1 {
+float: left;
+width: 40%;
+
+}
+#box2{
+width: 50%;
+position: absolute;
+margin-top: 5vw;
+margin-left: 0.5vw;
+  
+}
+
+#päädiv > #box1, #box2{
+  display:inline;
+  /*border: solid 1px #000; */
+}
+#päädiv {
+  position: relative;
+  margin-top: 3vw;
+  display: inline-block;
+ /* border: solid 1px #ff0000;*/
+  width: 100%;
+}
+
+
+
+#teksti {
+margin: 0;
+text-align: left;
+}
+#testi {
+  position: relative;
+  border: solid 1px black;
+  width: 30%;
+  float: top;
+  
+}
 
 
 h2 {
@@ -241,10 +234,4 @@ footer > p {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 1920px) {
-  .nav-item a:link,
-  .nav-item a:visited {
-    padding: 1vw 6.9vw;
 
-  }
-}
