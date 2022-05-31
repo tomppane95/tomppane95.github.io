@@ -1,3 +1,4 @@
+
 .container {
   background-image: url('./pics/valkone.jpg');
   min-height: 400px;
@@ -6,15 +7,10 @@
   box-shadow: 0 4px 2px -2px rgb(0 0 0 / 20%);
 
 }
-h1{
+
+h1 {
   font-family: 'Permanent Marker', cursive;
 }
-.example-image{
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px;
-  color: black;
-}
-
 
 a {
   font-family: 'Poppins', sans-serif;
@@ -68,12 +64,12 @@ a {
   display: none;
 }
 
-
 .pikkuotsikko {
   position: relative;
   margin: auto;
-  
+
 }
+
 #kuva {
   display: block;
   margin-left: 0;
@@ -81,7 +77,7 @@ a {
   width: 10%;
   font-size: 50px;
   text-align: top;
-  
+
 }
 
 
@@ -89,7 +85,7 @@ a {
 
   background-color: rgb(255, 255, 255);
 
-  
+
 }
 
 #Alkuotsikko {
@@ -102,54 +98,61 @@ a {
   width: 100%;
   text-align: center;
 }
-#allergiaskanneri{
+
+#allergiaskanneri {
   width: 50%;
   position: relative;
   left: 15vw;
 }
 
-#box1, #box2{
-  display:inline;
-  
+#box1,
+#box2 {
+  display: inline;
+
 }
+
 /**/
 #box1 {
-float: left;
-width: 40%;
+  float: left;
+  width: 40%;
 
 }
-#box2{
-width: 50%;
-position: absolute;
-margin-top: 5vw;
-margin-left: 0.5vw;
-  
+
+#box2 {
+  width: 50%;
+  position: absolute;
+  margin-top: 5vw;
+  margin-left: 0.5vw;
+
 }
 
-#päädiv > #box1, #box2{
-  display:inline;
+#päädiv>#box1,
+#box2 {
+  display: inline;
   /*border: solid 1px #000; */
 }
+
 #päädiv {
   position: relative;
   margin-top: 3vw;
   display: inline-block;
- /* border: solid 1px #ff0000;*/
+  /* border: solid 1px #ff0000;*/
   width: 100%;
 }
 
 
 
 #teksti {
-margin: 0;
-text-align: left;
+  margin: 0;
+  text-align: left;
 }
+
 #testi {
   position: relative;
   border: solid 1px black;
   width: 30%;
   float: top;
-  
+
 }
 
 
@@ -163,18 +166,21 @@ h2 {
   top: 3vw;
   left: 0vw;
 }
-#pikkuotsikko{
+
+#pikkuotsikko {
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 #ekakuva {
   float: left;
   left: 15vw;
   margin-right: 3vw;
   border: 1px solid;
 }
+
 p {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -188,12 +194,13 @@ p {
   top: 2vw;
 }
 
-.powerpoint{
+.powerpoint {
   position: relative;
   margin-left: 28vw;
 }
+
 footer {
-  width: 99%;
+  width: 100%;
   font-size: 19px;
   color: white;
   border: none;
@@ -206,7 +213,10 @@ footer {
 footer > p {
   margin-top: 2vw;
   margin-bottom: 2vw;
+ 
+  text-align: center;
 }
+
 @media (max-width: 900px) {
   h2 {
     font-size: 23px;
@@ -214,24 +224,181 @@ footer > p {
   p {
     font-size: 17px;
   }
-  p > #ekakuva {
-    width: 50%;
-  }
 }
-@media (max-width: 680px) {
+
+
+
+@media (max-width: 775px) {
+
+  #Alkuotsikko{
+    top: 6rem;
+  }
+  .container{
+    min-height: 200px;
+  }
+  #moromoro {
+
+    max-width: 100%;
+
+  }
+  .nav-list {
+    width: 100%;
+    position: relative;
+  }
+  .nav-item a:link, .nav-item a:visited {
+    padding: 1vw 10vw;
+  }
   h2 {
-    font-size: 17px;
+    font-size: 20px;
   }
   p {
-    font-size: 14px;
-  }
-}
-@media (max-height: 680px) {
-  h2 {
-    font-size: 200px;
-  }
-  p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
+@media (max-width: 600px) {
+  #Alkuotsikko{
+    top: 6rem;
+  }
+  .container{
+    min-height: 200px;
+  }
+  #moromoro {
+
+    max-width: 100%;
+
+  }
+
+  .nav-list {
+    width: 100%;
+    position: relative;
+  }
+  .nav-item a:link, .nav-item a:visited {
+    padding: 1vw 10vw;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+footer {
+  position: relative;
+  width: 100;
+  font-size: 19px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+}
+
+@media (max-width: 500px) {
+  .container{
+    min-height: 200px;
+  }
+  #moromoro {
+
+    max-width: 100%;
+
+  }
+
+  .nav-list {
+    width: 100%;
+    position: relative;
+  }
+  .nav-item a:link, .nav-item a:visited {
+    padding: 1vw 10vw;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+footer {
+  position: relative;
+  width: 100;
+  font-size: 19px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+}
+@media (max-width: 450px) {
+  .container{
+    min-height: 200px;
+  }
+  #moromoro {
+
+    max-width: 100%;
+
+  }
+
+  .nav-list {
+    width: 100%;
+    position: relative;
+  }
+  .nav-item a:link, .nav-item a:visited {
+    padding: 1vw 10vw;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+footer {
+  position: relative;
+  width: 100;
+  font-size: 19px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+}
+@media (max-width: 390px) {
+  .container{
+    min-height: 200px;
+  }
+  #moromoro {
+
+    max-width: 100%;
+
+  }
+  .nav-list {
+    width: 100%;
+    position: relative;
+  }
+  .nav-item a:link, .nav-item a:visited {
+    padding: 1vw 2vw;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+footer {
+  position: relative;
+  width: 100;
+  font-size: 19px;
+  color: white;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1px;
+  font-family: 'Poppins', sans-serif;
+  
+}}

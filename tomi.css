@@ -234,13 +234,7 @@ footer > p {
   }
 }
 
-/*
-@media screen and (max-width: 1920px) {
-  .nav-item a:link, .nav-item a:visited {
-    padding: 0.9vw 10vw;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.089)
-} */
+
 .taitopalikka {
   left: 30vw;
   width: 250px;
