@@ -82,16 +82,21 @@ a {
   display: flex;
   justify-content: center;
 }
+/**/
 
 .taitopalikka {
-  width: 200px;
+  left: 30vw;
+  width: 250px;
   margin: 25px;
-  box-shadow: rgba(0, 0, 0, 0.308) 0px 54px 55px,
-    rgba(0, 0, 0, 0.308) 0px -12px 30px, rgba(0, 0, 0, 0.226) 0px 4px 6px,
-    rgba(0, 0, 0, 0.205) 0px 12px 13px, rgba(0, 0, 0, 0.199) 0px -3px 5px;
+  margin-top: 80px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-shadow: rgb(0 0 0 / 31%) 0px 54px 55px, rgb(0 0 0 / 31%) 0px -12px 30px, rgb(0 0 0 / 23%) 0px 4px 6px, rgb(0 0 0 / 21%) 0px 12px 13px, rgb(0 0 0 / 20%) 0px -3px 5px;
   background-color: rgb(248, 248, 248);
   border-radius: 10px;
 }
+
 .taitopalikka-1 {
   min-height: 19vw;
   min-width: 21vw;
@@ -235,20 +240,6 @@ footer > p {
 }
 
 
-.taitopalikka {
-  left: 30vw;
-  width: 250px;
-  margin-top: 100px;
-  margin-left: 0vw;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  box-shadow: rgb(0 0 0 / 31%) 0px 54px 55px, rgb(0 0 0 / 31%) 0px -12px 30px, rgb(0 0 0 / 23%) 0px 4px 6px, rgb(0 0 0 / 21%) 0px 12px 13px, rgb(0 0 0 / 20%) 0px -3px 5px;
-  background-color: rgb(248, 248, 248);
-  border-radius: 10px;
-}
-
-
 @media (max-width: 775px) {
   #moromoro {
     padding-top: 950px;
@@ -286,17 +277,6 @@ footer > p {
   
 }
   
-}
-.taitopalikka {
-  left: 30vw;
-  width: 250px;
-  margin-top: 100px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  box-shadow: rgb(0 0 0 / 31%) 0px 54px 55px, rgb(0 0 0 / 31%) 0px -12px 30px, rgb(0 0 0 / 23%) 0px 4px 6px, rgb(0 0 0 / 21%) 0px 12px 13px, rgb(0 0 0 / 20%) 0px -3px 5px;
-  background-color: rgb(248, 248, 248);
-  border-radius: 10px;
 }
 
 
